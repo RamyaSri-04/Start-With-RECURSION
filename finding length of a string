@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int strlength(string str){
+    if(str[0]=='\0') return 0;
+    else{
+        return 1+strlength(str.substr(1));
+    }
+}
+int main(){
+    cout<<strlength("recursive")<<endl;//9
+}
