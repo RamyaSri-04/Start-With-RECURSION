@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int power(int num,int p){
+    if(p==0)
+      return 1;
+    return num*(power(num,p-1));
+}
+int main(){
+    int num;
+    int p;
+    cout<<"enter the number";
+    cin>>num;
+    cout<<"power of a number";
+    cin>>p;
+    cout<<power(5,3); //output:125
+}
