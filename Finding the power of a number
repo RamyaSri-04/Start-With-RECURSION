@@ -13,5 +13,5 @@ int main(){
     cin>>num;
     cout<<"power of a number";
     cin>>p;
-    cout<<power(5,3); //output:125
+    cout<<power(num,p); 
 }
