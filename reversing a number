@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int reverse(int num){
+    if(num<10){
+        return num;
+    }
+    cout<<num%10;
+    reverse(num/10);
+}
+
+int main(){
+    cout<<reverse(1234);//4321
+}
