@@ -3,7 +3,7 @@
 
 
 
-RECURSION is a function that CALLS ITSELF.
+> RECURSION is a function that CALLS ITSELF.
 
 Normally,A Function is a block of statements which gets executed on calling from the main fuction and also called from main function.
 
@@ -27,19 +27,8 @@ SYNTAX:
 NOTE:
    The above syntax is based on C programming Language.The syntax may vary depending upon the Language You use.
 
-HOW DOES RECURSION WORK:
-
-
-    Function_name ()         
-
-    {                                    
-      //block of statements
-      Function_name();      
-    }
-
-    int main()
-    {
-      Function_name();
-    }
+> THE recursion can be supported by many languages.
+> This repository is about simple and basic codes using RECURSIVE technique.
+    
 
 
